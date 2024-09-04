@@ -1,0 +1,14 @@
+.imageGallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+}
+
+.imageGalleryItem {
+    cursor: pointer;
+    width: 300px;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+}
